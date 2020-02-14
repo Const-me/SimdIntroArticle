@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="IO\Image.cpp" />
+    <ClCompile Include="IO\Image.save.cpp" />
+    <ClCompile Include="Scalar\scanline.cpp" />
+    <ClCompile Include="Vector\vectorFill.cpp" />
+    <ClCompile Include="Vector\Bitmap.ctor.cpp" />
+    <ClCompile Include="Vector\Bitmap.cpp" />
+    <ClCompile Include="Vector\Bitmap.fill.cpp" />
+    <ClCompile Include="Arguments.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="IO\stb_image.h" />
+    <ClInclude Include="floodFill.h" />
+    <ClInclude Include="misc.hpp" />
+    <ClInclude Include="IO\Image.h" />
+    <ClInclude Include="IO\stb_image_write.h" />
+    <ClInclude Include="Vector\PixelComparer.hpp" />
+    <ClInclude Include="Vector\Bitmap.h" />
+    <ClInclude Include="Vector\loadSome.hpp" />
+    <ClInclude Include="..\common.h" />
+    <ClInclude Include="Arguments.h" />
+  </ItemGroup>
+</Project>

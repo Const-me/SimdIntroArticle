@@ -1,0 +1,16 @@
+*.user
+
+Grayscale/.vs/
+Grayscale/x64/
+Grayscale/Win32/
+Grayscale/build/
+
+DotProduct/.vs/
+DotProduct/x64/
+DotProduct/Win32/
+DotProduct/build/
+
+FloodFill/.vs/
+FloodFill/x64/
+FloodFill/Win32/
+FloodFill/build/
